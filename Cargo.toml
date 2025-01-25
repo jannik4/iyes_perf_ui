@@ -28,7 +28,8 @@ chrono = ["dep:chrono"]
 num-traits = "0.2.19"
 
 [dependencies.bevy]
-version = "0.15.0-rc.3"
+git = "https://github.com/bevyengine/bevy"
+rev = "deb135c25c3a7eafdc432eaefe0957d6ffdcca62"
 default-features = false
 features = [
     "bevy_ui",
@@ -43,5 +44,6 @@ features = [
 ]
 
 [dev-dependencies.bevy]
-version = "0.15.0-rc.3"
+git = "https://github.com/bevyengine/bevy"
+rev = "deb135c25c3a7eafdc432eaefe0957d6ffdcca62"
 default-features = true
